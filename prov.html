@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Will you be my Valentine?</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: pink;
+            text-align: center;
+            padding: 50px;
+        }
+        h1 {
+            color: red;
+            font-size: 3em;
+        }
+        p {
+            color: rgb(247, 9, 9);
+            font-size: 1.5em;
+        }
+        .heart {
+            color: red;
+            font-size: 5em;
+        }
+        .buttons {
+            margin-top: 20px;
+        }
+        .buttons button {
+            font-size: 1.5em;
+            padding: 10px 20px;
+            margin: 10px;
+            cursor: pointer;
+        }
+        .buttons .yes {
+            color: green;
+        }
+        .buttons .no {
+            color: red;
+        }
+        .yay-message {
+            display: none;
+            margin-top: 20px;
+        }
+        .yay-message {
+            font-size: 2em;
+            color: red;
+        }
+        .cat-image {
+            display: none;
+            margin-top: 20px;
+        }
+    </style>
+    <script>
+        function handleYesClick() {
+            const catImage = document.querySelector('.cat-image');
+            const yayMessage = document.querySelector('.yay-message');
+            
+            catImage.src = 'c:/Users/User/Desktop/cutest-white-cat.gif'; 
+            catImage.style.display = 'block';
+            yayMessage.style.display = 'block';
+        }
+    </script>
+</head>
+<body>
+    <h1>❤️❤️❤️❤️Will you be my valentine Kejsi?❤️❤️❤️❤️</h1>
+    <p>❤️❤️❤️❤️❤️❤️BEB❤️❤️❤️❤️❤️❤️</p>
+    <div class="buttons">
+        <button class="yes" onclick="handleYesClick()">Yes</button>
+        <button class="no">No</button>
+    </div>
+    <div class="yay-message">❤️❤️❤️❤️❤️❤️❤️Yay!!!!! TE DUA❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️</div>
+    <img src="" class="cat-image" alt="cute cat">
+</body>
+</html>
